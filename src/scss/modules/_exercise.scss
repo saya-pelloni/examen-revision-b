@@ -20,4 +20,17 @@
 
 .article {
   color: #54819e;
+  transition: color 0.2;
+}
+
+.article:hover {
+  color: #1d3557;
+}
+
+.article-title {
+  transition: color 0.2;
+}
+
+.article-title:hover {
+  font-size: 29px;
 }
