@@ -7,6 +7,16 @@
     border-radius: 5px;
     color: #003566;
     box-shadow: 0px 0px 4px 0px rgba(#003566, 0.25);
+    animation: boxShadowChange 4s infinite;
+  }
+
+  @keyframes boxShadowChange {
+    0% {
+      box-shadow: 0px 0px 4px 0px rgba(#003566, 0.25);
+    }
+    25% {
+      box-shadow: 0px 0px 4px 0px rgba(#003566, 0.25);
+    }
   }
 
   .loader {
