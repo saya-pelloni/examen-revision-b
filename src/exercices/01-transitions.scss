@@ -7,6 +7,12 @@
   font-size: 24px;
   border-radius: 5px;
   cursor: pointer;
+  transition: color 0.2;
+}
+
+.button:hover {
+  background-color: #a8dadc;
+  color: black;
 }
 
 .star {
@@ -29,4 +35,8 @@
   margin-bottom: 12px;
   font-size: 24px;
   transition: transform 0.5s;
+}
+
+.article:hover {
+  color: #1d3557;
 }
